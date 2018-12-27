@@ -3,7 +3,7 @@ import os
 import Sendr
 
 class DataLoader(Dataset):
-    """The DataSet is assumed to be in a hwew form.
+    """The DataSet is assumed to be in a hierarchical form.
     DataSet Folder -> (Test and Train)
     Test -> Different Label Folder -> Training images
     Train -> Different Label Folders -> Training images
