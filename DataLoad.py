@@ -22,7 +22,7 @@ class DataLoader(Dataset):
 
     def walk(self, DFolder, labels = False, features = False):
         """This function returns a list of labels or features in a
-        Dataset"""
+        Dataset. This gets the data in a linear form from a treeish form"""
         Data_Dict = Dict()
         walked = list(os.walk(DFolder))
         for file_ in walked:
